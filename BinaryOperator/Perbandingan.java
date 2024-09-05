@@ -1,21 +1,25 @@
 package BinaryOperator;
 
 public class Perbandingan {
-    public static void main(String[] args){
-        boolean a = 80;
-        boolean b = 70;
+    public static void main(String[] args) {
+        int a = 80;
+        int b = 70;
 
-        //sama dengan
-        boolean hasildariSAMA = (a == b);
-        system.out.println("a == b"+ hasildariSAMA);
-        //lebih kecil dari
-        boolean hasildarikecildari = ( a < b);
-        system.out.println("a < b" + hasildarikecildari);
-        //lebih besar dari
-        boolean hasildaribesardari = (a > b);
-        system.out.println("a > b"+ hasildaribesardari);
-        //sama dengan
+        // Sama dengan
+        boolean hasilSama = (a == b);
+        System.out.println("a == b: " + hasilSama);
 
-        //tidak sama dengan
+        // Lebih kecil dari
+        boolean hasilKecilDari = (a < b);
+        System.out.println("a < b: " + hasilKecilDari);
+
+        // Lebih besar dari
+        boolean hasilBesarDari = (a > b);
+        System.out.println("a > b: " + hasilBesarDari);
+
+        // Tidak sama dengan
+        boolean hasilTidakSama = (a != b);
+        System.out.println("a != b: " + hasilTidakSama);
     }
 }
+
